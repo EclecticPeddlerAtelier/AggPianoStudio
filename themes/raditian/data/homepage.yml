@@ -10,10 +10,15 @@ showcase:
   imageMobile:
     x: "img/showcase/showcase-mobile.jpg"
 
-  button:
+  button1:
     icon: "icon-mail-fill"
     btnText: "Resume"
-    URL: "https://radity.com/en/contact/"
+    URL: "files/CV.pdf"
+
+  button2:
+    icon: "icon-mail-fill"
+    btnText: "Handbook"
+    URL: "files/handbook.pdf"
 
   socialLinks:
     - icon: "linkedin"
