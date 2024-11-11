@@ -7930,7 +7930,6 @@ p a:hover, span a:hover {
     font-weight: 700;
     font-size: 14px;
     padding: 14px 15px;
-    border-radius: 50%;
 }
 .btn [class^=icon-] {
     font-size: 16px;
@@ -7955,10 +7954,12 @@ p a:hover, span a:hover {
 .btn-first {
     background-color: #eb4c43;
     padding: 44px 24px;
+    border-radius: 50%;
 }
 .btn-second {
     background-color: #f2ca23;
     padding: 44px 15px;
+    border-radius: 50%;
 }
 .btn-primary {
     position: relative;
