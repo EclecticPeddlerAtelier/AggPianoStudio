@@ -70,6 +70,7 @@ about:
     x: "img/who-am-i/user-picture.png"
     _2x: "img/who-am-i/user-picture@2x.png"
 
+
 # education
 education:
   enable: true
@@ -86,7 +87,7 @@ education:
 # experience
 experience:
   enable: true
-  title: "Experience"
+  title: "Portfolio"
   description: "Over 15+ years of experience working with companies from all over the world. I design & develop digital products to help businesses and improve people's lives."
   button:
     icon: "icon-linkedin-fill"
