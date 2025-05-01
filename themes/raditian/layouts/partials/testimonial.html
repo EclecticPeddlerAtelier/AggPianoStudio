@@ -5,7 +5,6 @@
         <div class="row row--padded mb-0 rad-fade-down">
             {{ range .Site.Data.homepage.testimonial.items }}
             <div class="col-12 col-md-4 mb-5 mb-md-0 testimonial">
-                <i class="icon-quote"></i>
                 <p>
                     {{ .content }}
                 </p>
@@ -16,7 +15,11 @@
                          data-srcset="{{ .image.x | absURL }} 1x, {{ .image._2x | absURL }} 2x"
                          alt="{{ .name }}"/>
                     <div class="testimonial__author-info">
-                        <h4>{{ .name }}</h4>
+                        <h3>
+                        <a href="{{ .URL | absURL }}">
+                        {{ .name }}
+                        </a>
+                        </h3>
                         <span>{{ .position }}</span>
                     </div>
                 </div>
